@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac4365cd-ab00-4ae9-9f3c-44792248b808" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branch_product_list" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oOS1cfBFOUV11qguEpKkTslmbV" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.1.7:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-16T17:28:20.663Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mina\AndroidStudioProjects\MyShop\app\src\main\res\drawable" />
+      <recent name="C:\Users\Mina\AndroidStudioProjects\MyShop\app\src\main\res\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mina\AndroidStudioProjects\MyShop\app\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="My_Shop.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac4365cd-ab00-4ae9-9f3c-44792248b808" name="Default Changelist" comment="" />
+      <created>1613155929671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613155929671</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added fonts in assets">
+      <created>1613671765063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613671765063</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added product json file on assets">
+      <created>1613671802107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613671802107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Committing files">
+      <created>1613671905037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613671905037</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created cart model">
+      <created>1613671943238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613671943238</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created cartItem model">
+      <created>1613671967224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613671967224</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created products model">
+      <created>1613671997962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613671997962</updated>
+    </task>
+    <task id="LOCAL-00007" summary="set up displaying UI components">
+      <created>1613672229910</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613672229910</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created product contract">
+      <created>1613672266715</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613672266715</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created product list adapter">
+      <created>1613672293459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613672293459</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created product presenter">
+      <created>1613672780965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613672780965</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created background color for cart quantity">
+      <created>1613673393762</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613673393762</updated>
+    </task>
+    <task id="LOCAL-00012" summary="created cart vector">
+      <created>1613673477532</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613673477532</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added cart icon on toolbar right side">
+      <created>1613673512459</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613673512459</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added textview component for displaying prices">
+      <created>1613673616515</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613673616515</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added textview component for displaying prices">
+      <created>1613673631555</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613673631555</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added gson and paper library">
+      <created>1613673781429</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613673781429</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added fonts in assets" />
+    <MESSAGE value="added product json file on assets" />
+    <MESSAGE value="Committing files" />
+    <MESSAGE value="created cart model" />
+    <MESSAGE value="created cartItem model" />
+    <MESSAGE value="created products model" />
+    <MESSAGE value="set up displaying UI components" />
+    <MESSAGE value="created product contract" />
+    <MESSAGE value="created product list adapter" />
+    <MESSAGE value="created product presenter" />
+    <MESSAGE value="created background color for cart quantity" />
+    <MESSAGE value="created cart vector" />
+    <MESSAGE value="added cart icon on toolbar right side" />
+    <MESSAGE value="added textview component for displaying prices" />
+    <MESSAGE value="added gson and paper library" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gson and paper library" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="25" key="#Auto_Import" timestamp="1613639942565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="449" y="25" key="#Auto_Import/0.0.1366.728@0.0.1366.728" timestamp="1613639942565" />
+    <state x="474" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1613671371014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1613671371014" />
+    <state x="527" y="153" key="AndroidCreateXmlResourceDialog" timestamp="1613496184164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="527" y="153" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1613496184164" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1613673780230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613673780230" />
+    <state width="1321" height="274" key="GridCell.Tab.0.bottom" timestamp="1613671314883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613671314883" />
+    <state width="1321" height="274" key="GridCell.Tab.0.center" timestamp="1613671314883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613671314883" />
+    <state width="1321" height="274" key="GridCell.Tab.0.left" timestamp="1613671314883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613671314883" />
+    <state width="1321" height="274" key="GridCell.Tab.0.right" timestamp="1613671314883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613671314883" />
+    <state x="459" y="151" key="git4idea.merge.GitMergeDialog" timestamp="1613675795252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="151" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1613675795252" />
+  </component>
+</project>
