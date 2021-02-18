@@ -24,12 +24,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    androidExtensions {
+        experimental = true
     }
 }
 
@@ -44,6 +54,8 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'io.reactivex:rxandroid:1.2.1'
     implementation 'io.reactivex:rxkotlin:0.55.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'io.paperdb:paperdb:2.7.1'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
