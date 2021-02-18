@@ -19,6 +19,7 @@ import java.io.IOException
 class ProductsPresenter : BaseMvpPresenterImpl<ProductContract.View>(), ProductContract.Presenter {
     override fun init() {
         Paper.init(mView!!.getContext())
+        mView!!.showCartCount(Cart.getCartSize())
     }
 
     override fun loadProducts() {
