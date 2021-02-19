@@ -10,15 +10,29 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4365cd-ab00-4ae9-9f3c-44792248b808" name="Default Changelist" comment="">
+    <list default="true" id="ac4365cd-ab00-4ae9-9f3c-44792248b808" name="Default Changelist" comment="created CheckoutActivity for displaying success order">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[A7PRO205026010]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -70,17 +84,20 @@
     <property name="settings.editor.selected.configurable" value="inlay.hints.kotlin" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-375885755">
-      <recent name="com.bruntworktest.android.module.cart" />
+    <key name="android.template.-2101428174">
+      <recent name="com.bruntworktest.android.module.order" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.bruntworktest.android.module.cart" />
     </key>
+    <key name="android.template.330610818">
+      <recent name="com.bruntworktest.android.module.checkout" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mina\AndroidStudioProjects\MyShop\app\src\main" />
     </key>
-    <key name="android.template.330610818">
-      <recent name="com.bruntworktest.android.module.checkout" />
+    <key name="android.template.-375885755">
+      <recent name="com.bruntworktest.android.module.cart" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mina\AndroidStudioProjects\MyShop\app\src\main\res\layout" />
@@ -417,13 +434,31 @@
       <option name="project" value="LOCAL" />
       <updated>1613759129278</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="added code for redirecting users to confirming order">
+      <created>1613773934059</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1613773934059</updated>
+    </task>
+    <task id="LOCAL-00038" summary="created ConfirmActivity for displaying success order">
+      <created>1613773971800</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1613773971800</updated>
+    </task>
+    <task id="LOCAL-00039" summary="created UI for order confirmation">
+      <created>1613774380141</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1613774380141</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created background color for cart quantity" />
-    <MESSAGE value="created cart vector" />
-    <MESSAGE value="added cart icon on toolbar right side" />
     <MESSAGE value="added textview component for displaying prices" />
     <MESSAGE value="added gson and paper library" />
     <MESSAGE value="Commit unversioned files" />
@@ -446,7 +481,10 @@
     <MESSAGE value="added strings" />
     <MESSAGE value="registered Checkout activity and write permission in manifest" />
     <MESSAGE value="committing misc file" />
-    <option name="LAST_COMMIT_MESSAGE" value="committing misc file" />
+    <MESSAGE value="added code for redirecting users to confirming order" />
+    <MESSAGE value="created ConfirmActivity for displaying success order" />
+    <MESSAGE value="created UI for order confirmation" />
+    <option name="LAST_COMMIT_MESSAGE" value="created UI for order confirmation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="25" key="#Auto_Import" timestamp="1613639942565">
@@ -457,14 +495,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="474" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1613758545294" />
-    <state x="527" y="153" key="AndroidCreateXmlResourceDialog" timestamp="1613745021978">
+    <state x="527" y="153" key="AndroidCreateXmlResourceDialog" timestamp="1613766433584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="527" y="153" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1613745021978" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1613759122294">
+    <state x="527" y="153" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1613766433584" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1613774378449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613759122294" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613774378449" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1613759573162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
