@@ -23,17 +23,10 @@ class Cart {
             Cart.saveCart(cart)
         }
 
-        fun removeItem(cartItem: CartItem, context: Context) {
+        fun removeItem(cartItem: CartItem) {
             val cart = Cart.getCart()
-
             val item = cart.singleOrNull { it.product.id == cartItem.product.id }
-            if (item != null) {
-                if(item.qty > 0){
-                    item.qty--
-                } else {
-                    cart.remove(item)
-                }
-            }
+            cart.remove(item)
             Cart.saveCart(cart)
         }
 
@@ -52,6 +45,12 @@ class Cart {
             }
 
             return cartSize
+        }
+
+        fun getSubtotal(): Double {
+            var totalPrice = Cart.getCart()
+                .fold(0.toDouble()) { acc, cartItem -> acc + cartItem.qty.times(cartItem.product.price!!.toDouble()) }
+            return totalPrice
         }
     }
 }
