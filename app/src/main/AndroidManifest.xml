@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyShop">
-        <activity android:name=".module.checkout.CheckoutActivity"/>
+        <activity android:name=".module.order.ConfirmActivity"></activity>
+        <activity android:name=".module.checkout.CheckoutActivity" />
         <activity
             android:name=".module.cart.CartActivity"
             android:screenOrientation="portrait" />
