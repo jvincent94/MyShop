@@ -1,8 +1,7 @@
 package com.bruntworktest.android.module.main
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -10,7 +9,7 @@ import com.bruntworktest.android.R
 import com.bruntworktest.android.base.BaseMvpActivity
 import com.bruntworktest.android.model.CartItem
 import com.bruntworktest.android.model.Product
-import com.bruntworktest.android.model.Products
+import com.bruntworktest.android.module.cart.CartActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.ArrayList
 
@@ -34,7 +33,7 @@ class MainActivity : BaseMvpActivity<ProductContract.View, ProductsPresenter>(),
         toolbar.title = getString(R.string.string_title_shop)
 
         btn_cart.setOnClickListener {
-
+            startActivity(Intent(this, CartActivity::class.java))
         }
     }
 
@@ -65,5 +64,10 @@ class MainActivity : BaseMvpActivity<ProductContract.View, ProductsPresenter>(),
         super.showError(error)
         progress_bar.visibility = View.GONE
         Toast.makeText(this, error, Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        mPresenter.init()
     }
 }
