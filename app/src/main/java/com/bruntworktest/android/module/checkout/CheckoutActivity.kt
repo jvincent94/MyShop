@@ -1,15 +1,13 @@
 package com.bruntworktest.android.module.checkout
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import com.bruntworktest.android.R
 import com.bruntworktest.android.base.BaseMvpActivity
+import com.bruntworktest.android.module.order.ConfirmActivity
 import kotlinx.android.synthetic.main.activity_checkout.*
-import kotlinx.android.synthetic.main.activity_checkout.toolbar
-import kotlinx.android.synthetic.main.activity_checkout.tv_cart_quantity
-import kotlinx.android.synthetic.main.activity_main.*
 
 class CheckoutActivity : BaseMvpActivity<CheckoutContract.View, CheckoutPresenter>(), CheckoutContract.View {
 
@@ -41,7 +39,8 @@ class CheckoutActivity : BaseMvpActivity<CheckoutContract.View, CheckoutPresente
     }
 
     override fun orderSuccess(orderId: Int) {
-
+        startActivity(Intent(this, ConfirmActivity::class.java).putExtra("id", orderId))
+        finish()
     }
 
 
