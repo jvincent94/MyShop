@@ -13,6 +13,7 @@ import com.bruntworktest.android.base.BaseMvpActivity
 import com.bruntworktest.android.model.Cart
 import com.bruntworktest.android.model.CartItem
 import com.bruntworktest.android.model.Product
+import com.bruntworktest.android.module.checkout.CheckoutActivity
 import com.bruntworktest.android.module.main.ProductListAdapter
 import kotlinx.android.synthetic.main.activity_cart.*
 import kotlinx.android.synthetic.main.activity_main.*
@@ -41,7 +42,7 @@ class CartActivity : BaseMvpActivity<CartContract.View, CartPresenter>(), CartCo
         toolbar.title = getString(R.string.string_title_shop)
 
         btn_buy.setOnClickListener {
-
+            startActivity(Intent(this, CheckoutActivity::class.java))
         }
     }
 
