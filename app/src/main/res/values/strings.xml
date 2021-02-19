@@ -4,4 +4,7 @@
     <string name="hint_name">Name</string>
     <string name="string_checkout">CHECKOUT</string>
     <string name="hint_email">Email</string>
+    <string name="string_order_confirmation">ORDER CONFIRMATION</string>
+    <string name="string_return_to_products">Return to Products</string>
+    <string name="string_your_order_has_been_processed">Your order has been processed</string>
 </resources>
