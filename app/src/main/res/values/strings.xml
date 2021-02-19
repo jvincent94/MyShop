@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My Shop</string>
     <string name="string_title_shop">Shop</string>
+    <string name="hint_name">Name</string>
+    <string name="string_checkout">CHECKOUT</string>
+    <string name="hint_email">Email</string>
 </resources>
