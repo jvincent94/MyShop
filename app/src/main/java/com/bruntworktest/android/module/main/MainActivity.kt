@@ -34,6 +34,7 @@ class MainActivity : BaseMvpActivity<ProductContract.View, ProductsPresenter>(),
 
         btn_cart.setOnClickListener {
             startActivity(Intent(this, CartActivity::class.java))
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 
