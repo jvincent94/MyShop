@@ -38,6 +38,10 @@ class Cart {
             Paper.book().write("cart", cart)
         }
 
+        fun clearCart() {
+            Paper.book().delete("cart")
+        }
+
         fun getCartSize(): Int {
             var cartSize = 0
             Cart.getCart().forEach {

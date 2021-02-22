@@ -47,6 +47,7 @@ class CheckoutPresenter: BaseMvpPresenterImpl<CheckoutContract.View>(), Checkout
 
             if(createFile(num)){
                 file.writeText(jsonString)
+                Cart.clearCart()
                 mView!!.orderSuccess(num)
             } else {
                 checkout(name, email, switch)
