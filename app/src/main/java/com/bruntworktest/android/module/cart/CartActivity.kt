@@ -22,6 +22,7 @@ import kotlinx.android.synthetic.main.activity_main.recyclerview_products
 import kotlinx.android.synthetic.main.activity_main.toolbar
 import kotlinx.android.synthetic.main.activity_main.tv_cart_quantity
 import java.util.ArrayList
+import kotlin.math.roundToInt
 
 /**
  * Created by John Vincent Fernandez on 02/19/2021.
@@ -43,6 +44,7 @@ class CartActivity : BaseMvpActivity<CartContract.View, CartPresenter>(), CartCo
 
         btn_buy.setOnClickListener {
             startActivity(Intent(this, CheckoutActivity::class.java))
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 
@@ -72,7 +74,7 @@ class CartActivity : BaseMvpActivity<CartContract.View, CartPresenter>(), CartCo
 
     @SuppressLint("SetTextI18n")
     override fun showSubTotal(subTotal: Double) {
-        tv_subtotal.text = "$"+subTotal
+        tv_subtotal.text = "$"+subTotal.roundToInt()
     }
 
     override fun showError(error: String?) {
