@@ -21,6 +21,7 @@ class CheckoutActivity : BaseMvpActivity<CheckoutContract.View, CheckoutPresente
 
         btn_pay.setOnClickListener {
             mPresenter.checkout(et_name.text.toString(), et_email.text.toString())
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 
@@ -41,6 +42,11 @@ class CheckoutActivity : BaseMvpActivity<CheckoutContract.View, CheckoutPresente
     override fun orderSuccess(orderId: Int) {
         startActivity(Intent(this, ConfirmActivity::class.java).putExtra("id", orderId))
         finish()
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
     }
 
 
