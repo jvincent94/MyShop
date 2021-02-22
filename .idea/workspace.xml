@@ -19,20 +19,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[A7PRO205026010]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -455,12 +450,24 @@
       <option name="project" value="LOCAL" />
       <updated>1613774380141</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added slide animation code">
+      <created>1614003634276</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1614003634276</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fixed buy now button width, set to wrap_content">
+      <created>1614005710165</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1614005710165</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added textview component for displaying prices" />
-    <MESSAGE value="added gson and paper library" />
     <MESSAGE value="Commit unversioned files" />
     <MESSAGE value="added code for showing cart counter on app start" />
     <MESSAGE value="added function getSubtotal to compute total items" />
@@ -484,7 +491,9 @@
     <MESSAGE value="added code for redirecting users to confirming order" />
     <MESSAGE value="created ConfirmActivity for displaying success order" />
     <MESSAGE value="created UI for order confirmation" />
-    <option name="LAST_COMMIT_MESSAGE" value="created UI for order confirmation" />
+    <MESSAGE value="added slide animation code" />
+    <MESSAGE value="fixed buy now button width, set to wrap_content" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed buy now button width, set to wrap_content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="25" key="#Auto_Import" timestamp="1613639942565">
@@ -499,10 +508,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="527" y="153" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1613766433584" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1613774378449">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1614005708671">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613774378449" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1614005708671" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1613759573162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -531,6 +540,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="124" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1613676151095" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1614005625904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614005625904" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613676236592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
