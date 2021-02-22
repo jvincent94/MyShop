@@ -27,8 +27,8 @@ class ProductsPresenter : BaseMvpPresenterImpl<ProductContract.View>(), ProductC
         val gson = Gson()
         var products: Products = gson.fromJson(jsonFileString, Products::class.java)
         val productList: List<Product> = products.products
-
         mView?.showProducts(productList.toMutableList())
+        mView!!.showChips(productList.toMutableList())
     }
 
     override fun addProduct(cartItem: CartItem) {
@@ -38,7 +38,7 @@ class ProductsPresenter : BaseMvpPresenterImpl<ProductContract.View>(), ProductC
     }
 
     override fun deleteProduct(cartItem: CartItem) {
-
+        //for future function
     }
 
 

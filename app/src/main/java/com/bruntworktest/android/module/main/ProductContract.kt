@@ -14,6 +14,7 @@ object ProductContract {
     interface View : BaseMvpView {
         fun showProducts(products: MutableList<Product>)
         fun showCartCount(count: Int)
+        fun showChips(products: MutableList<Product>)
     }
 
     interface Presenter: BaseMvpPresenter<View>{
