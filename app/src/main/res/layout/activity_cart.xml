@@ -82,15 +82,20 @@
             android:text="$50.99"
             android:gravity="center"
             android:layout_marginRight="8dp"/>
-        <Button
-            android:id="@+id/btn_buy"
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Buy Now >"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_buy"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Buy Now >"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </RelativeLayout>
     </LinearLayout>
 
     <ProgressBar
