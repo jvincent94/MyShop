@@ -20,8 +20,7 @@ class CheckoutActivity : BaseMvpActivity<CheckoutContract.View, CheckoutPresente
         toolbar.title = getString(R.string.string_title_shop)
 
         btn_pay.setOnClickListener {
-            mPresenter.checkout(et_name.text.toString(), et_email.text.toString())
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+            mPresenter.checkout(et_name.text.toString(), et_email.text.toString(), switch_terms.isChecked)
         }
     }
 
@@ -41,6 +40,7 @@ class CheckoutActivity : BaseMvpActivity<CheckoutContract.View, CheckoutPresente
 
     override fun orderSuccess(orderId: Int) {
         startActivity(Intent(this, ConfirmActivity::class.java).putExtra("id", orderId))
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         finish()
     }
 

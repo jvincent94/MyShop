@@ -1,5 +1,7 @@
 package com.bruntworktest.android.module.checkout
 
+import android.widget.Switch
+import android.widget.TextView
 import com.bruntworktest.android.base.BaseMvpPresenter
 import com.bruntworktest.android.base.BaseMvpView
 import com.bruntworktest.android.model.CartItem
@@ -17,6 +19,6 @@ object CheckoutContract {
 
     interface Presenter: BaseMvpPresenter<View> {
         fun init()
-        fun checkout(name: String, email: String)
+        fun checkout(name: String, email: String, switch: Boolean)
     }
 }
