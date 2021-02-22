@@ -46,6 +46,8 @@ class CartActivity : BaseMvpActivity<CartContract.View, CartPresenter>(), CartCo
             startActivity(Intent(this, CheckoutActivity::class.java))
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
+
+        btn_back.setOnClickListener { onBackPressed() }
     }
 
     private fun setUpRecyclerView() {
@@ -57,8 +59,15 @@ class CartActivity : BaseMvpActivity<CartContract.View, CartPresenter>(), CartCo
     }
 
     override fun showItems(cartItems: MutableList<CartItem>) {
-        mAdapter?.setItems(cartItems)
-        mAdapter?.notifyDataSetChanged()
+        if(cartItems.size > 0) {
+            recyclerview_products.visibility = View.VISIBLE
+            layout_empty.visibility = View.GONE
+            mAdapter?.setItems(cartItems)
+            mAdapter?.notifyDataSetChanged()
+        } else {
+            recyclerview_products.visibility = View.GONE
+            layout_empty.visibility = View.VISIBLE
+        }
     }
 
     override fun showCartCount(count: Int) {

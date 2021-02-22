@@ -7,4 +7,6 @@
     <string name="string_order_confirmation">ORDER CONFIRMATION</string>
     <string name="string_return_to_products">Return to Products</string>
     <string name="string_your_order_has_been_processed">Your order has been processed</string>
+    <string name="string_cart_empty">Your cart is empty</string>
+    <string name="string_go_back_to_products">Go back to Products</string>
 </resources>
